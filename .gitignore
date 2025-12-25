@@ -1,5 +1,4 @@
 # Build output
-dist/
 test/testBuild
 
 # Node modules folder
