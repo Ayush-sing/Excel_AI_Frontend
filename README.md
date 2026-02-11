@@ -73,8 +73,8 @@ Detailed usage instructions and sample commands are available here:
 
 ## How you can use it?
 
-Download manifest.excel.xml and use instructions shown in the video below
-Source: Youtube | Youtuber: Michael Zlatkovsky (Not me)
+- Download manifest.excel.xml and use instructions shown in the video below
+- Source: Youtube | Youtuber: Michael Zlatkovsky (Not me)
 
 [![Watch the video](https://img.youtube.com/vi/XXsAw2UUiQo/maxresdefault.jpg)](https://youtu.be/XXsAw2UUiQo)
 
