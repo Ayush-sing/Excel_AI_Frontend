@@ -10,7 +10,7 @@ Excel AI Assistant allows users to interact with spreadsheet data using simple, 
 
 - Aggregations (sum, mean, median, etc.)
 - Charts (bar, line, scatter, box, histogram, pie, heatmap)
-- Regression analysis (linear, polynomial, multi-variable)
+- Regression analysis (linear, polynomial, Logarithmic)
 - Filtered analysis using `where` conditions
 
 All results are generated dynamically and placed back into Excel.
@@ -50,9 +50,9 @@ This hybrid design ensures:
 ```bash
 sum {total_profit}
 
-mean {sales} where {region} is West
+sum {total_profit} where {shopping_mode} is Online
 
-bar chart of {order_date} and {total_revenue}
+mean {sales} where {region} is West
 
 scatter plot of {unit_cost} and {unit_price}
 
@@ -60,6 +60,7 @@ box plot of {profit} by {category}
 
 regression of {ad_spend} and {sales}
 ```
+Column Name must be specified between {}
 ---
 
 ## 📂 Documentation & Examples
@@ -73,6 +74,7 @@ Detailed usage instructions and sample commands are available here:
 ## How you can use it?
 
 Download manifest.excel.xml and use instructions shown in the video below
+Source: Youtube | Youtuber: Michael Zlatkovsky (Not me)
 
 [![Watch the video](https://img.youtube.com/vi/XXsAw2UUiQo/maxresdefault.jpg)](https://youtu.be/XXsAw2UUiQo)
 
@@ -110,7 +112,8 @@ This project demonstrates:
 ## ⚠️ Limitations
 
 - Requires exact column names inside `{}`  
-- Not designed for advanced forecasting models  
+- Not designed for advanced forecasting models
+- Cannot work well with dates
 - Does not perform fuzzy column matching  
 - Focused on structured numerical datasets  
 
